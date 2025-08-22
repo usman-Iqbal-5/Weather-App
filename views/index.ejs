@@ -22,11 +22,16 @@
             <button type="submit">Check Weather</button>
         </form>
 
+        <h3>
+            <% if (cityName) { %>
+                <%= cityName %> Weather for the next 5 days
+            <% } else { %>
+                City not reognised
+            <% } %>        
+        </h3>
+        
         <% if (locals.content) { %>
             <div>
-                <h3>
-                    <%= cityName %> Weather for the next 5 days
-                </h3>
                 <table>
                     <thead>
                         <tr>

@@ -44,9 +44,12 @@ app.post("/getWeather", async (req, res)=>{
         
     } catch (error) {
         // console.log(`${error.message}`);
-        res.render("index.ejs", {content: error.message});
+        res.render("index.ejs", {
+            content: null,
+            content: null,
+            cityName: null,
+        });
     }
-
 })
 
 app.listen(port, ()=>{
