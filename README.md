@@ -43,22 +43,22 @@ Users can search for a city and view the forecast data presented dynamically on 
 
   Install dependencies
   
-  npm install
+        npm install
   
   
   Set up environment variables
   Create a .env file in the project root:
   
-  APIKEY=your_openweather_api_key
+        APIKEY=your_openweather_api_key
   
   Run the app
   
-  node index.js
+        node index.js
   
   
   Open your browser and navigate to:
   
-  http://localhost:3000
+        http://localhost:3000
 
 ---
 
