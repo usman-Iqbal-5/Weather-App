@@ -25,9 +25,9 @@ Users can search for a city and view the forecast data presented dynamically on 
 
 ## 📂 Project Structure
       
-      ├── public/          # Static assets (CSS, images, JS)
+      ├── public/          # Static assets (CSS) 
       ├── views/           # EJS templates (index.ejs)
-      ├── server.js           # Main server file
+      ├── server.js        # Main server file
       ├── .env             # Environment variables (API key)
       ├── package.json     
       └── README.md
