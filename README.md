@@ -36,30 +36,30 @@ Users can search for a city and view the forecast data presented dynamically on 
 
 ## ⚙️ Setup & Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/weather-app.git
-   cd weather-app
+  1. **Clone the repository**
+         ```
+         git clone https://github.com/yourusername/weather-app.git
+         cd weather-app
+          ```
 
-2. **Install dependencies**
-  
-        npm install
-  
-  
+  2. **Install dependencies**
+         ```
+         npm install
+         ```
+   
   3. **Set up environment variable**
   4. **Create a .env file in the project root:**
-
-         APIKEY=your_openweather_api_key
-  
-  7. **Run the app**
-  
-           node index.js
-  
-  
-  8. **Open your browser and navigate to:**
-  
-           http://localhost:3000
-
+       ```
+       APIKEY=your_openweather_api_key
+       ```
+  5. **Run the app**
+       ```
+       node index.js
+       ```
+  6. **Open your browser and navigate to:**
+      ```
+      http://localhost:3000
+      ```
 ---
 
 ## 🌍 Example
