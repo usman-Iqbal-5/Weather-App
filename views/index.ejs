@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to SkyCast</h1>
+
+        <p>Get real-time, weather updates and forecasts — wherever you are. <br>
+            Whether it’s sunshine or storms, we’ve got you covered.</p>
+
+
+        <form action="/getWeather" method="POST" class="user-input">
+            <label id="city-name" for="city">City Name</label>
+            <input type="text" id="cityInput" name="city" placeholder="Enter city here...">
+            <button type="submit">Check Weather</button>
+        </form>
+
+        <% if (locals.content) { %>
+            <div>
+                <h3>
+                    <%= cityName %> Weather for the next 5 days
+                </h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Weather</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% content.list.forEach(element=> { %>
+                            <tr>
+                                <td>
+                                    <%= element.dt_txt %>
+                                </td>
+                                <td>
+                                    <%= element.weather[0].description %>
+                                </td>
+                            </tr>
+                            <% }) %>
+                    </tbody>
+                </table>
+            </div>
+            <% } else { %>
+                <p>No forecast data available - use the search to get up-to-date weather reports.</p>
+            <% } %>
+    </div>
+</body>
+
+</html>
