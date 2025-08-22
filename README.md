@@ -79,8 +79,3 @@ This project uses the OpenWeather 5 Day / 3 Hour Forecast API:
 
 https://api.openweathermap.org/data/2.5/forecast?q={CITY_NAME}&appid={API_KEY}
 
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
