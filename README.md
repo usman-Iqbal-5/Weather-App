@@ -16,7 +16,8 @@ Users can search for a city and view the forecast data presented dynamically on 
 
 ## 🛠️ Tech Stack
 - **Backend:** Node.js, Express  
-- **Frontend:** EJS templates, CSS/Static files (served from `public/`)  
+- **Frontend:** EJS templates, CSS/Static files (served from `public/`)
+- **Technologies & Concepts:** Restful APIs and Fetch requests
 - **API:** OpenWeather API  
 - **Other:** dotenv for environment variables  
 
