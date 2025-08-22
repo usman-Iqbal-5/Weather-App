@@ -27,7 +27,7 @@ Users can search for a city and view the forecast data presented dynamically on 
       
       ├── public/          # Static assets (CSS, images, JS)
       ├── views/           # EJS templates (index.ejs)
-      ├── app.js           # Main server file
+      ├── server.js           # Main server file
       ├── .env             # Environment variables (API key)
       ├── package.json     
       └── README.md
