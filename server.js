@@ -12,7 +12,12 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
 app.get("/", (req, res)=>{
-    res.render("index.ejs");
+    res.render("index.ejs", {
+        content: null,
+        content: null,
+        cityName: null,
+        notDefined: true,
+    });
 })
 
 app.post("/getWeather", async (req, res)=>{
@@ -39,7 +44,8 @@ app.post("/getWeather", async (req, res)=>{
         // console.log(response);
         return res.render("index.ejs", {
             content: response,
-            cityName: city
+            cityName: city,
+            notDefined: false,
         })
         
     } catch (error) {
@@ -48,6 +54,7 @@ app.post("/getWeather", async (req, res)=>{
             content: null,
             content: null,
             cityName: null,
+            notDefined: false,
         });
     }
 })
