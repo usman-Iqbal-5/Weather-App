@@ -41,7 +41,7 @@ Users can search for a city and view the forecast data presented dynamically on 
          ```
          git clone https://github.com/yourusername/weather-app.git
          cd weather-app
-          ```
+         ```
 
   2. **Install dependencies**
          ```
@@ -55,7 +55,7 @@ Users can search for a city and view the forecast data presented dynamically on 
        ```
   5. **Run the app**
        ```
-       node index.js
+       node server.js
        ```
   6. **Open your browser and navigate to:**
       ```
