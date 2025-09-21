@@ -39,7 +39,7 @@ Users can search for a city and view the forecast data presented dynamically on 
 
   1. **Clone the repository**
      ```
-     git clone https://github.com/yourusername/weather-app.git
+     git clone https://github.com/usman-Iqbal-5/Weather-App.git
      cd weather-app  
      ```
 
